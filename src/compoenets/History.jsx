@@ -26,7 +26,7 @@ export default function History() {
               [utcTime]: coffee,
             });
 
-            const summary = `${coffee.name} | ${timeSinceConsume} | $${coffee.cost} | ${originalAmount}mg / ${remainingAmount}`
+            const summary = `${coffee.name} | ${timeSinceConsume} | $${coffee.cost} | ${remainingAmount}mg / ${originalAmount}mg`
             return (
               <div title={summary} key={coffeIndex}>
                 <i className='fa-solid fa-mug-hot' />
